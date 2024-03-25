@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"/>
+      <link rel="stylesheet" href="style.css">
+   
+  </head>
+
+  <body>
+    <h2>Resume Builder</h2>
+    <div class="">
+      <form class="form">
+        <div id="containe1">
+          <div>
+            <label class="form-label" for="ename">Name</label>
+            <input class="form-control" type="text" id="name" />
+          </div>
+
+          <div>
+            <label class="form-label" for="number">Number</label>
+            <input class="form-control" type="text" id="number" />
+          </div>
+
+          <div>
+            <label class="form-label" for="gmail">Gmail</label>
+            <input class="form-control" type="text" id="gmail" />
+
+            <label class="form-label" for="link">LinkedIn Link</label>
+            <input class="form-control type=" text" id="link">
+          </div>
+
+          <div>
+            <label class="form-label" for="github">Github Link</label>
+            <input class="form-control" type="text" id="git" />
+          </div>
+
+        </div>
+
+        <div id="container2">
+          <div>
+            <label class="form-label" for="ed">Education Details</label>
+            <input class="form-control" type="text" id="ed" />
+          </div>
+
+          <div>
+            <label class="form-label" for="we">Work Experience</label>
+            <input class="form-control" type="pf" id="we" />
+
+            <label class="form-label" for="skills">Skills</label>
+            <input class="form-control" type="pf" id="skill" />
+          </div>
+
+          <div>
+            <label class="form-label" for="cert">Certifications</label>
+            <input class="form-control" type="pf" id="cert" />
+          </div>
+        </div>
+    </form>
+    <div id="buttons">
+    <input type="button" value="Save" id="submit"/>
+    <input type="button" value="Print" id="print"/>
+    </div>
+    </div>
+    <table>
+      <tr>
+        <tbody id="display"></tbody>
+      </tr>
+    </table>
+ 
+
+    <script src="app.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
